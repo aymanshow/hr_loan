@@ -156,7 +156,7 @@
 			<field name="model">hr.employee</field>
 			<field name="inherit_id" ref="hr.view_employee_form"/>
 			<field name="arch" type="xml">
-				<xpath expr="//group[@string='Leaves']" position="before">
+				<xpath expr="//group[@name='active_group']" position="before">
 					<group string="Loans">
 						<label for="loan_amount"/>
 						<div>
