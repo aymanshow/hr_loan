@@ -3,7 +3,13 @@ from openerp.exceptions import except_orm, Warning, RedirectWarning
 from datetime import date, datetime, timedelta
 from dateutil.relativedelta import relativedelta
 from openerp.osv import osv
+import logging
 
+_logger = logging.getLogger(__name__)
+
+class ir_sequance_type(models.Model):
+	_name = 'ir.sequence.type'
+	
 class hr_payslip(models.Model):
 	_inherit = 'hr.payslip'
 	
