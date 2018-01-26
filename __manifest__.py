@@ -3,7 +3,7 @@
 
 {
     'name': 'Loan Management',
-    'version': '1.1',
+    'version': '1.3',
     'category': 'Human Resources',
     'sequence': 75,
     'summary': 'Payroll, Loan Request, Employees Details',
